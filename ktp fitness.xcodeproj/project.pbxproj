@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8741A33027E810AB00A01642 /* ktp_fitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A32F27E810AB00A01642 /* ktp_fitnessApp.swift */; };
+		8741A33227E810AB00A01642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A33127E810AB00A01642 /* ContentView.swift */; };
+		8741A33427E810AC00A01642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8741A33327E810AC00A01642 /* Assets.xcassets */; };
+		8741A33727E810AC00A01642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8741A33627E810AC00A01642 /* Preview Assets.xcassets */; };
+		8741A33E27E8120900A01642 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A33D27E8120900A01642 /* RingView.swift */; };
+		8741A34127E8132100A01642 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A34027E8132100A01642 /* Colors.swift */; };
+		8741A34327E8166F00A01642 /* RingTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A34227E8166F00A01642 /* RingTipView.swift */; };
+		8741A34527E8266700A01642 /* RingTipShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A34427E8266700A01642 /* RingTipShape.swift */; };
+		8741A34727E829C300A01642 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A34627E829C300A01642 /* Goal.swift */; };
+		8741A34A27E82C4A00A01642 /* Collection+enumerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A34927E82C4A00A01642 /* Collection+enumerated.swift */; };
+		8741A34C27E82D2300A01642 /* RingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A34B27E82D2300A01642 /* RingsView.swift */; };
+		8741A35027E8314600A01642 /* RingProgressArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A34F27E8314600A01642 /* RingProgressArc.swift */; };
+		8741A35427E83F0100A01642 /* MeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8741A35327E83F0100A01642 /* MeasurementView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8741A32C27E810AB00A01642 /* ktp fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ktp fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8741A32F27E810AB00A01642 /* ktp_fitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ktp_fitnessApp.swift; sourceTree = "<group>"; };
+		8741A33127E810AB00A01642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8741A33327E810AC00A01642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8741A33627E810AC00A01642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8741A33D27E8120900A01642 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		8741A34027E8132100A01642 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8741A34227E8166F00A01642 /* RingTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTipView.swift; sourceTree = "<group>"; };
+		8741A34427E8266700A01642 /* RingTipShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingTipShape.swift; sourceTree = "<group>"; };
+		8741A34627E829C300A01642 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		8741A34927E82C4A00A01642 /* Collection+enumerated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+enumerated.swift"; sourceTree = "<group>"; };
+		8741A34B27E82D2300A01642 /* RingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingsView.swift; sourceTree = "<group>"; };
+		8741A34F27E8314600A01642 /* RingProgressArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingProgressArc.swift; sourceTree = "<group>"; };
+		8741A35327E83F0100A01642 /* MeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8741A32927E810AB00A01642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8741A32327E810AB00A01642 = {
+			isa = PBXGroup;
+			children = (
+				8741A32E27E810AB00A01642 /* ktp fitness */,
+				8741A32D27E810AB00A01642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8741A32D27E810AB00A01642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8741A32C27E810AB00A01642 /* ktp fitness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8741A32E27E810AB00A01642 /* ktp fitness */ = {
+			isa = PBXGroup;
+			children = (
+				8741A32F27E810AB00A01642 /* ktp_fitnessApp.swift */,
+				8741A34627E829C300A01642 /* Goal.swift */,
+				8741A33127E810AB00A01642 /* ContentView.swift */,
+				8741A35327E83F0100A01642 /* MeasurementView.swift */,
+				8741A33F27E8120C00A01642 /* Rings */,
+				8741A34827E82C3C00A01642 /* Extensions */,
+				8741A33327E810AC00A01642 /* Assets.xcassets */,
+				8741A33527E810AC00A01642 /* Preview Content */,
+			);
+			path = "ktp fitness";
+			sourceTree = "<group>";
+		};
+		8741A33527E810AC00A01642 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8741A33627E810AC00A01642 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8741A33F27E8120C00A01642 /* Rings */ = {
+			isa = PBXGroup;
+			children = (
+				8741A34B27E82D2300A01642 /* RingsView.swift */,
+				8741A33D27E8120900A01642 /* RingView.swift */,
+				8741A34F27E8314600A01642 /* RingProgressArc.swift */,
+				8741A34227E8166F00A01642 /* RingTipView.swift */,
+				8741A34427E8266700A01642 /* RingTipShape.swift */,
+			);
+			path = Rings;
+			sourceTree = "<group>";
+		};
+		8741A34827E82C3C00A01642 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8741A34027E8132100A01642 /* Colors.swift */,
+				8741A34927E82C4A00A01642 /* Collection+enumerated.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8741A32B27E810AB00A01642 /* ktp fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8741A33A27E810AC00A01642 /* Build configuration list for PBXNativeTarget "ktp fitness" */;
+			buildPhases = (
+				8741A32827E810AB00A01642 /* Sources */,
+				8741A32927E810AB00A01642 /* Frameworks */,
+				8741A32A27E810AB00A01642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ktp fitness";
+			productName = "ktp fitness";
+			productReference = 8741A32C27E810AB00A01642 /* ktp fitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8741A32427E810AB00A01642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8741A32B27E810AB00A01642 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 8741A32727E810AB00A01642 /* Build configuration list for PBXProject "ktp fitness" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8741A32327E810AB00A01642;
+			productRefGroup = 8741A32D27E810AB00A01642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8741A32B27E810AB00A01642 /* ktp fitness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8741A32A27E810AB00A01642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8741A33727E810AC00A01642 /* Preview Assets.xcassets in Resources */,
+				8741A33427E810AC00A01642 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8741A32827E810AB00A01642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8741A33E27E8120900A01642 /* RingView.swift in Sources */,
+				8741A34C27E82D2300A01642 /* RingsView.swift in Sources */,
+				8741A35427E83F0100A01642 /* MeasurementView.swift in Sources */,
+				8741A34527E8266700A01642 /* RingTipShape.swift in Sources */,
+				8741A34727E829C300A01642 /* Goal.swift in Sources */,
+				8741A34327E8166F00A01642 /* RingTipView.swift in Sources */,
+				8741A34127E8132100A01642 /* Colors.swift in Sources */,
+				8741A35027E8314600A01642 /* RingProgressArc.swift in Sources */,
+				8741A34A27E82C4A00A01642 /* Collection+enumerated.swift in Sources */,
+				8741A33227E810AB00A01642 /* ContentView.swift in Sources */,
+				8741A33027E810AB00A01642 /* ktp_fitnessApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8741A33827E810AC00A01642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8741A33927E810AC00A01642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8741A33B27E810AC00A01642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ktp fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9PPH2T3L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samuelshi.ktp-fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8741A33C27E810AC00A01642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ktp fitness/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9PPH2T3L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samuelshi.ktp-fitness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8741A32727E810AB00A01642 /* Build configuration list for PBXProject "ktp fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8741A33827E810AC00A01642 /* Debug */,
+				8741A33927E810AC00A01642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8741A33A27E810AC00A01642 /* Build configuration list for PBXNativeTarget "ktp fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8741A33B27E810AC00A01642 /* Debug */,
+				8741A33C27E810AC00A01642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8741A32427E810AB00A01642 /* Project object */;
+}
